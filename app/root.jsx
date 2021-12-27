@@ -20,7 +20,7 @@ export let links = () => {
 };
 
 export function meta() {
-  return { title: "New Remix App" };
+  return { title: "Karen Bot" };
 }
 
 export default function App() {
