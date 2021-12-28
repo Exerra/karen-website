@@ -13,9 +13,9 @@ import uiKit from "~/styles/now-ui-kit.css";
 
 export let links = () => {
   return [
-    { rel: "stylesheet", href: bootstrap },
+    //{ rel: "stylesheet", href: bootstrap },
     { rel: "stylesheet", href: mainStyle },
-    { rel: "stylesheet", href: uiKit }
+    //{ rel: "stylesheet", href: uiKit }
   ];
 };
 
@@ -33,7 +33,16 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <nav className="navbar navbar-expand-lg bg-transparent">
+        <Outlet />
+        <ScrollRestoration />
+        <Scripts />
+        {process.env.NODE_ENV === "development" && <LiveReload />}
+      </body>
+    </html>
+  );
+}
+/*
+<nav className="navbar navbar-expand-lg bg-transparent">
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <img src="menuIcon.svg" width="20px" height="20px" style={{maxWidth: "none !important"}} />
           </button>
@@ -55,11 +64,4 @@ export default function App() {
             </ul>
           </div>
         </nav>
-        <Outlet />
-        <ScrollRestoration />
-        <Scripts />
-        {process.env.NODE_ENV === "development" && <LiveReload />}
-      </body>
-    </html>
-  );
-}
+ */
