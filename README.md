@@ -1,6 +1,6 @@
 <img src="README.svg"> 
 
-This webiste is now featuring 100% more React and 100% more server side rendering. It is based on [this template](https://github.com/Nouridio/Discord-bot-website-template)
+This website is now featuring 100% more React and 100% more server side rendering. It is based on [this template](https://github.com/Nouridio/Discord-bot-website-template)
 
 ## Development
 
