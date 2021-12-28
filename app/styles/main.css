@@ -21,6 +21,17 @@ p {
     color: #333333;
 }
 
+a {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-size:20px;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 15px 32px;
+}
+
 .header {
     position:relative;
     text-align:center;
@@ -66,8 +77,8 @@ p {
 }
 
 .smallWidget {
-    width: 400px;
-    height: 200px;
+    max-width: 400px;
+    max-height: 200px;
     border-radius: 20px;
     margin: 10px;
     justify-content: left;

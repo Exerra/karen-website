@@ -14,7 +14,9 @@ export default function Index() {
 					<h1>Karen Bot</h1>
 				</div>
 
+				<a href={"https://discord.com/oauth2/authorize?client_id=914834579465052210&scope=applications.commands%20bot&permissions=8"}>Invite to server</a>
 
+				<br /><br /><br /><br /><br /><br /><br /><br />
 
 				<div>
 					<svg className="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
