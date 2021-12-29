@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;600;700;800;900&family=Poppins:wght@300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;600;700;800;900&family=Poppins:wght@300;400;600;700;800;900&display=swap');
 
 body {
     margin:0;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     font-weight:300;
     letter-spacing: 2px;
     font-size:48px;
@@ -13,9 +13,10 @@ h1 {
 
 .inner-header h1 {
     font-size: 80px;
+    font-family: 'Poppins', sans-serif;
 }
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     letter-spacing: 1px;
     font-size:20px;
     color: #333333;
@@ -76,8 +77,24 @@ a {
     background-color: white;
 }
 
-.smallWidget {
+.largeWidget {
     max-width: 400px;
+    max-height: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    justify-content: left;
+    text-align: left;
+}
+
+.largeWidget * {
+    left: 0;
+    right: 0;
+    width: 400px;
+    padding-left: 20px;
+}
+
+.smallWidget {
+    max-width: 200px;
     max-height: 200px;
     border-radius: 20px;
     margin: 10px;
@@ -92,7 +109,7 @@ a {
 .smallWidget * {
     left: 0;
     right: 0;
-    width: 400px;
+    width: 200px;
     padding-left: 20px;
 }
 

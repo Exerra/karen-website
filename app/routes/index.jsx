@@ -46,19 +46,36 @@ export default function Index() {
 
 				<h1 className={"flex"}>Features</h1>
 				<div className="flex">
-					<div className={"smallWidget purple"}>
+					<div className={"largeWidget purple"}>
 						<h1>Profile</h1>
 						<p>Cross-server profile system</p>
 					</div>
-					<div className={"smallWidget blue"}>
+					<div className={"largeWidget blue"}>
 						<h1>Auto</h1>
 						<p>Auto Spotify and Brew.sh embeds</p>
 					</div>
-					<div className={"smallWidget teal"}>
+					<div className={"largeWidget teal"}>
 						<h1>Search</h1>
 						<p>Search in various services</p>
 					</div>
 				</div>
+				<br /><br /><br /><br /><br /><br /><br /><br /><br />
+				<h1 className={"flex"}>Statistics</h1>
+				<div className={"flex"}>
+					<div className={"smallWidget purple"}>
+						<h1>{data.servercount}</h1>
+						<p>guilds</p>
+					</div>
+					<div className={"smallWidget teal"}>
+						<h1>{data.users}</h1>
+						<p>members</p>
+					</div>
+					<div className={"smallWidget blue"}>
+						<h1>{data.DiscordJS}</h1>
+						<p>DiscordJS version</p>
+					</div>
+				</div>
+				<br /><br /><br /><br /><br /><br /><br /><br /><br />
 			</div>
 
 			<footer>
