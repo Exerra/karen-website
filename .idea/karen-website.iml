@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="karenwebsite" />
     <orderEntry type="module" module-name="personalwebsite" />
+    <orderEntry type="module" module-name="karen-bot-profile" />
   </component>
 </module>

@@ -1,4 +1,5 @@
 import { useCatch, Link, json, useLoaderData } from "remix";
+import googleAd from "~/modules/googleAd";
 
 export let loader = async () => {
   return await fetch('https://api.exerra.xyz/karen/stats')
@@ -81,6 +82,11 @@ export default function Index() {
           </div>
           <br/>
         </div>
+        <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6116005548705101" crossOrigin="anonymous"></script>
+        {googleAd()}
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </div>
     </>
   );
