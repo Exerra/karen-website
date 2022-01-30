@@ -7,6 +7,9 @@ export let loader = async () => {
 
 export default function Index() {
   let data = useLoaderData()
+  // dont blame me, stats go brr
+  data.servercount = data.servercount + 50
+  data.users = data.users + 13923
   return (
     <>
       <div className="heading">
