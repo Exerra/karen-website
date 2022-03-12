@@ -1,5 +1,5 @@
 import { useCatch, Link, json, useLoaderData } from "remix";
-import googleAd from "~/modules/googleAd";
+//import googleAd from "~/modules/googleAd";
 
 export let loader = async () => {
   return await fetch('https://api.exerra.xyz/karen/stats')
@@ -83,16 +83,18 @@ export default function Index() {
         <div className="footer">
           <div className="bot-footer">
             <img src="BotLogoTransparent.png" alt="Karen Bot logo" width="150" /><br/>
-              <p>Copyright © [Occult Waifu#1659] - 2021</p>
+              <p>Copyright © [Occult Waifu#1659] - 2022</p>
           </div>
           <br/>
         </div>
-        <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6116005548705101" crossOrigin="anonymous"></script>
-        {googleAd()}
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
       </div>
     </>
   );
 }
+
+/*
+        <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6116005548705101" crossOrigin="anonymous"></script>
+        {googleAd()}
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>*/
