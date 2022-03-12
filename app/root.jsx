@@ -20,7 +20,7 @@ export let links = () => {
 };
 
 export function meta() {
-  return { title: "Karen Bot" };
+  return { title: "Karen Bot", description: "Karen Bot is a multi-purpose bot ready to skill up and boost up your Discord server. Features Moderation, Reddit, Spotify search and more!" };
 }
 
 export default function App() {
